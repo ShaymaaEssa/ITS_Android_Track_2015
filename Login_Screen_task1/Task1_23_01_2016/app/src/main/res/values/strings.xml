@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_signin">SignIn</string>
+</resources>
