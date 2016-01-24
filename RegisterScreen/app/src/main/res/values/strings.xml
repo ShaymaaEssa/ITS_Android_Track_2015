@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RegisterScreen_task2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Register Screen -->
+
+    <string name="txt_title">Register</string>
+    <string name="etxt_firstname">First Name</string>
+    <string name="etxt_lastname">Last Name</string>
+    <string name="etxt_email">Email</string>
+    <string name="rbtn_female">Female</string>
+    <string name="rbtn_male">Male</string>
+    <string name="txt_Gender">Gender</string>
+    <string name="chk_terms">Accept all terms and Conditions</string>
+    <string name="btn_signup">Sign Up</string>
+</resources>
