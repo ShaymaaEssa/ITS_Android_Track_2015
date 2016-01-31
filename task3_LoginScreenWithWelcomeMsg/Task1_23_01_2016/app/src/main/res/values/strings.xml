@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity/LoginActivity -->
+
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_signin">SignIn</string>
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="txt_name">Name</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

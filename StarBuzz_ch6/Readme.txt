@@ -1,3 +1,0 @@
--StarBuzz app 
--chapter 6
--listView of drinks in a coffe menu
