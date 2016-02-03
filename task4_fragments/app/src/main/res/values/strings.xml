@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SwitchingFragments</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Main Activity -->
+    <string name="btn_it">IT courses</string>
+    <string name="btn_design">Design courses</string>
+</resources>
