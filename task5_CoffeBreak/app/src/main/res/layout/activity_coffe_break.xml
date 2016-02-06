@@ -1,0 +1,132 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".CoffeBreakActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/etxt_coffebreak_name"
+        android:ems="15"
+        android:id="@+id/etxt_coffebreak_name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_coffebreak_topping"
+        android:text="@string/txt_coffebreak_topping"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etxt_coffebreak_name"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ckbox_coffebreak_whcream"
+        android:id="@+id/ckbox_coffebreak_whcream"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_coffebreak_topping"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ckbox_coffebreak_chocolate"
+        android:id="@+id/ckbox_coffebreak_chocolate"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ckbox_coffebreak_whcream"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_coffebreak_quantity"
+        android:text="@string/txt_coffebreak_quantity"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ckbox_coffebreak_chocolate"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_coffebreak_plus"
+        android:text="@string/btn_coffebreak_plus"
+        android:layout_below="@+id/txt_coffebreak_quantity"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_coffebreak_num"
+        android:text="@string/txt_coffebreak_num"
+        android:layout_toRightOf="@+id/btn_coffebreak_plus"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBaseline="@+id/btn_coffebreak_plus"
+        android:layout_below="@+id/txt_coffebreak_quantity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_coffebreak_minus"
+        android:text="@string/btn_coffebreak_minus"
+        android:layout_toRightOf="@+id/txt_coffebreak_num"
+        android:layout_below="@+id/txt_coffebreak_quantity"
+        android:layout_alignTop="@+id/btn_coffebreak_plus"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_coffebreak_place"
+        android:text="@string/txt_coffebreak_place"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btn_coffebreak_plus"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_coffebreak_place"
+        android:id="@+id/rgroup_coffebreak_place">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn_coffebreak_takeaway"
+            android:id="@+id/rbtn_coffebreak_takeaway"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn_coffebreak_here"
+            android:id="@+id/rbtn_coffebreak_here"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/rbtn_coffebreak_takeaway"/>
+
+
+    </RadioGroup>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_coffebreak_price"
+    android:text="@string/txt_coffebreak_price"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/rgroup_coffebreak_place"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_coffebreak_order"
+        android:text="@string/btn_coffebreak_order"
+        android:layout_below="@+id/txt_coffebreak_price"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

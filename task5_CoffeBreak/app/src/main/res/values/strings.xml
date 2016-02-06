@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CoffeBreak</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- CoffeBreakActivity -->
+    <string name="etxt_coffebreak_name">Name</string>
+    <string name="txt_coffebreak_topping">TOPPING</string>
+    <string name="ckbox_coffebreak_whcream">Whipped Cream</string>
+    <string name="ckbox_coffebreak_chocolate">Chocolate</string>
+    <string name="txt_coffebreak_quantity">Quantity</string>
+    <string name="btn_coffebreak_plus">+</string>
+    <string name="txt_coffebreak_num">0</string>
+    <string name="btn_coffebreak_minus">-</string>
+    <string name="txt_coffebreak_place">Place</string>
+    <string name="rbtn_coffebreak_takeaway">Take away</string>
+    <string name="rbtn_coffebreak_here">Here</string>
+    <string name="txt_coffebreak_price">Price</string>
+    <string name="btn_coffebreak_order">Order</string>
+</resources>
