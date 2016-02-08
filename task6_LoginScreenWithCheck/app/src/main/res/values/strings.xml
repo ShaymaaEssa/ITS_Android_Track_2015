@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- LoginScreenActivity -->
+    <string name="etxt_loginscreen_name">UserName</string>
+    <string name="etxt_loginscreen_password">Password</string>
+    <string name="etxt_loginscreen_age">Age</string>
+    <string name="txt_loginscreen_gender">Gender</string>
+    <string name="rbtn_loginscreen_male">Male</string>
+    <string name="rbtn_loginscreen_female">Female</string>
+    <string name="txt_loginscreen_course">Course Required</string>
+    <string name="ckbox_loginscreen_android">Android</string>
+    <string name="ckbox_loginscreen_java">Java</string>
+    <string name="ckbox_loginscreen_csharp">C sharp</string>
+    <string name="btn_loginscreen_check">Check</string>
+    <string name="btn_loginscreen_login">Login</string>
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

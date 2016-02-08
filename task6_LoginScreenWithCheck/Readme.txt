@@ -1,0 +1,4 @@
+-Login screen with buttons
+-2 Activity
+-intent
+-alert dialog

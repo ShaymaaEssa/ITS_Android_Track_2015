@@ -1,0 +1,132 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LoginScreen">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt_loginscreen_name"
+        android:ems="15"
+        android:hint="@string/etxt_loginscreen_name"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt_loginscreen_password"
+        android:ems="10"
+        android:hint="@string/etxt_loginscreen_password"
+        android:layout_below="@+id/etxt_loginscreen_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt_loginscreen_age"
+        android:ems="10"
+        android:hint="@string/etxt_loginscreen_age"
+        android:layout_below="@+id/etxt_loginscreen_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_loginscreen_gender"
+        android:text="@string/txt_loginscreen_gender"
+        android:layout_below="@+id/etxt_loginscreen_age"
+        android:layout_marginTop="30dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt_loginscreen_age"
+        android:layout_toRightOf="@+id/txt_loginscreen_gender"
+        android:layout_alignTop="@+id/txt_loginscreen_gender"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/rgroup_loginscreen_gender">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_loginscreen_male"
+            android:text="@string/rbtn_loginscreen_male"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_loginscreen_female"
+            android:text="@string/rbtn_loginscreen_female"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_loginscreen_course"
+        android:text="@string/txt_loginscreen_course"
+        android:layout_below="@+id/rgroup_loginscreen_gender"
+        android:layout_marginTop="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckbox_loginscreen_android"
+        android:layout_toRightOf="@+id/txt_loginscreen_course"
+        android:layout_alignBaseline="@+id/txt_loginscreen_course"
+        android:text="@string/ckbox_loginscreen_android"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckbox_loginscreen_java"
+        android:layout_below="@+id/txt_loginscreen_course"
+        android:layout_alignLeft="@+id/ckbox_loginscreen_android"
+        android:text="@string/ckbox_loginscreen_java"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckbox_loginscreen_csharp"
+        android:text="@string/ckbox_loginscreen_csharp"
+        android:layout_below="@+id/ckbox_loginscreen_java"
+        android:layout_alignLeft="@+id/ckbox_loginscreen_java"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ckbox_loginscreen_csharp"
+        android:layout_marginTop="40dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_loginscreen_check"
+            android:text="@string/btn_loginscreen_check"
+            android:onClick="btnCheckMethod"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_loginscreen_login"
+            android:text="@string/btn_loginscreen_login"
+            android:layout_marginLeft="30dp"
+            android:onClick="btnLoginMethod"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
